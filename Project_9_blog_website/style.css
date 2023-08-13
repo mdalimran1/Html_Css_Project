@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+
+}
+html,body{
+    scroll-behavior: smooth;
+    line-height: 1.4;
+    font-size: 62.5%;
+}
+/* nav start from here */
+header{
+    z-index: 100;
+    top: 0;
+    position: sticky;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 70px;
+    background-color: whitesmoke;
+}
+.nav-var h1{
+font-size: 3rem;
+font-weight: 700;
+}
+.icon ul{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.icon ul li a{
+   text-decoration: none;
+   color: black;
+   font-size: 1.7rem;
+   font-weight: 400px;
+   border-bottom:1px solid transparent ;
+   transition: 0.3s ease-in;
+}
+.icon ul li a:hover{
+    color: orangered;
+    border-bottom:1px solid black ;
+    transition: 0.3s ease-in;
+
+ }
+.icon ul li i{
+    font-size: 2.3rem;
+    font-weight: 500;
+ }
+
+ /* main stat from here */
+
+ #home1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+ }
+.home_h_title h1{
+    font-size: 5rem;
+    font-weight: 700;
+}
+.home_h_title h4{
+    font-size: 2rem;
+    font-weight: 400;
+}
+.home_logo img{
+    width: 500px;
+    border-radius:50px ;
+}
+
+ .long_esta{
+    margin-top: 70px;
+     }
+.long_des{
+   display: flex;
+   align-items: center;
+   border: 1px solid #e2e2e2;
+   border-radius:20px;
+   justify-content: space-between;
+   overflow: hidden;
+   margin: 70px 100px 50px 100px ;
+   transition: 0.3s ease-in;
+
+}
+.long_des:hover{
+   
+    box-shadow: 0px 5px 10px rgb(197, 197, 197),-2px 5px 10px rgb(217, 213, 213);
+  
+ }
+ .long_des_p{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 20px 20px 20px 50px;
+    
+ }
+ .img2{
+    height: 260px;
+ }
+ .long_des_p h1{
+    font-size: 3rem;
+    font-weight: 700;
+ }
+ .long_des_p p{
+    font-size: 1.3rem;
+    line-height: 20px;
+    font-weight: 500;
+ }
+ .vtn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 25px 15px 0px;
+ }
+ #post{
+    scroll-margin-top: 50px;
+ }
+.read{
+    border: transparent;
+    padding: 7px 10px;
+    border-radius:10px ;
+    transition: 0.3s ease-in;
+    font-weight: 700;
+
+}
+.read:hover{
+    border: transparent;
+    padding: 7px 10px;
+    background-color: coral;
+    color: white;
+    border-radius:10px ;
+
+}
+.box{
+    display: flex;
+    gap: 40px;
+    padding:50px  100px;
+                         ;
+  
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    background-color: aliceblue;
+    border-radius:20px ;
+    overflow: hidden;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+  
+}
+.box1:hover{
+    transition: 0.3s ease-in-out;
+    transform: scale(1.05);
+    box-shadow: 0px 5px 5px rgb(197, 197, 197),-2px 5px 5px rgb(217, 213, 213);
+  
+}
+.box1 h1{
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding: 0px 20px;
+   
+}
+.box1 p{
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 0px 20px;
+   
+}
+.box1 img{
+  width: 350px;
+} 
+
+/* 4th section */
+
+
+
+.lorem{
+    display: flex;
+    border: 1px solid rgb(162, 161, 161);
+    border-radius:20px ;
+    overflow: hidden;
+    margin: 0 90px 50px 90px;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.lorem img{
+    width: 500px;
+    height: 400px;
+}
+.lorem_des{
+    padding: 20px;
+}
+.lorem_des p{
+    padding-right: 13px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 20px;
+}
+.lorem_des h1{
+    font-size: 3rem;
+    font-weight: 700;
+    padding-bottom: 10px;
+ }
+/* footer  */
+.footer{
+    display: flex;
+    justify-content: space-between;
+    border-top:1px solid rgb(184, 183, 183);
+    padding: 10px 100px;
+}
+.span{
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+.footer h3{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.footer_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+.footer_icon i{
+   font-size: 2rem;
+   font-weight: 700;
+}
+
+/* post html start from here */
+
+.banner{
+    width: 100%;
+    background-repeat:no-repeat ;
+    background-position: center;
+    background-size: cover;
+    height: 550px;
+    padding-bottom:10px ;
+}
+.banner_section h1{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.banner_section p{
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding-bottom: 20px;
+    line-height: 30px;
+}
+.larg{
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding-right: 10px;
+}
+.section h3{
+font-size: 2rem;
+font-weight: 700;
+
+}
+

@@ -1,0 +1,245 @@
+
+/*For Laptop*/
+.col-1{width:8.33% ;}
+.col-2{width:16.66% ;}
+.col-3{width:25% ;}
+.col-4{width:33.33% ;}
+.col-5{width:41% ;}
+.col-6{width:50% ;}
+.col-7{width:58% ;}
+.col-8{width:66.66% ;}
+.col-9{width:75% ;}
+.col-10{width:83.33% ;}
+.col-11{width:91.66% ;}
+.col-12{width:100% ;}
+
+
+/* Navber start */
+
+
+.nav-logo{
+   text-align: center;
+  margin: 0;
+}
+
+
+
+.nav-title {
+    text-align: right;
+
+}
+.nav-title h1{
+    font-size: 45px;
+}
+
+.nav-menu{
+   
+    flex-direction:row;
+    justify-content: flex-end;
+    } 
+
+    .nav-menu a{
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 20px;
+        background-color: transparent;
+        transition: 0.4s;
+       
+    }
+    .nav-menu a:hover{
+
+        background-color: transparent;
+        color: yellow;
+        text-decoration: underline;
+        text-underline-position: under;
+        transform: scale(1.1);
+    }
+
+
+/* Nevber end */
+
+
+/*Profile start from here*/
+
+p.profile-p{
+  
+    width: 60%;
+    font-size: 20px;
+    color:#a39e9e;
+    text-align: center;
+    
+    }
+    h2{
+        font-size: 3.8rem;
+        font-family: 'Lobster', cursive;
+       
+        }
+.profile .top-weather-icon{
+
+    top: 20px;
+    right: 100px;
+}
+.profile .top-weather-icon:hover{
+
+width: 240px;
+}
+.profile .bottom-weather-icon{
+
+    left: 100px;
+}
+.profile .bottom-weather-icon:hover{
+
+   width: 240px;
+}
+
+/*Profile End here*/
+
+
+/* About Me start here */
+.imran-pic{
+    height: 400px;
+    width: 400px;
+    margin-right: 50px;
+    margin-top: 60px;
+    }
+
+.a-section2{
+
+    text-align: left;
+  
+
+}
+.horijontal{
+margin:2px left;
+
+}
+
+p{
+   
+    width: 100%;
+    text-align: left;
+    font-size: 20px;
+}
+button{
+padding: 10px 50px;
+
+}
+
+
+/* About Me end here */
+
+
+/* Profetional experiment start here */
+
+.profetional-experiment{
+    padding: 1% 2%;
+    
+    width: 100%;
+ 
+    }
+
+
+.work-experimant{
+
+   
+    width: 33%;
+    margin: 10px 0px;
+    
+
+ 
+  }
+
+  .educational-training{
+
+    width: 32%;
+    margin: 10px 12px;
+  
+   
+  }
+  .skills{
+
+    width: 33%;
+    margin: 10px 0px;
+   
+  
+  }
+
+
+
+ /* Profetional experiment end here  */
+
+
+ /* achivement start from here  */
+.achievement-con{
+
+padding: 10px 20px;
+
+}
+
+ h5{
+
+    font-size: 1.8rem;
+    text-align: center;
+}
+.achive-color{
+
+   
+    font-size: 16px;
+    text-align: left;
+
+}
+.cotnact-me{
+    padding: 10px 20px;
+
+}
+.more-way-contact{
+    padding: 10px 20px;
+}
+
+.name{
+    width: 70%;
+
+}
+.gmail{
+    width: 70%;
+
+}
+.mess{
+
+    width: 70%;
+}
+
+.icons .btn{
+    width: 45px;
+    font-size: 25px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin: 20px 30px;
+    border-radius: 25%;
+    margin-top: 60px;
+    }   
+
+
+
+ /* achivement end here*/
+
+
+ /* Footer start from here */
+
+ .footer-menu a{
+    margin:0 3px ;
+    display: inline-block;
+    font-size: 20px;
+    
+    margin: 10px 10px;
+    
+}
+.footer-des p{
+
+    font-size: 18px;
+    text-align: center;
+}
+
+ /* Footer end here */
+

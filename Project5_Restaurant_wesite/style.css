@@ -1,0 +1,422 @@
+ @import url('https://fonts.googleapis.com/css2?family=Handlee&family=Montserrat&family=Roboto:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.nav{
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+    height: 60px;
+    background-color: aliceblue;
+    align-items: center;
+    padding: 0 100px;
+    box-shadow: 4px 4px 4px rgba(1, 1, 1,0.1);
+    position: sticky;
+    top: 0;
+    z-index:5;
+}
+.logo img{
+    width: 140px;
+}
+i{
+    font-size: 25px;
+}
+
+/* next section */
+
+.menu{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.menu img{
+    width: 450px;
+}
+.enjoy_food{
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+}
+.enjoy_food h4{
+    background-color: green;
+    color: white;
+    padding: 10px;margin-bottom: 10px;
+   align-self: flex-start;
+}
+.enjoy_food h1{
+    
+    font-size: 3rem;
+    margin-bottom: 15px;
+   
+}
+.enjoy_food button {
+margin-top: 15px;
+align-self: flex-start;
+padding: 5px 10px;
+background-color: rgb(239, 173, 87);
+border: transparent;
+border-radius: 10px;
+font-weight: bold;
+transition: 0.3s;
+}
+.enjoy_food button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/* next section */
+.container{
+    display: flex;
+    width: 80%;
+    margin: 60px auto 40px auto;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+    padding: 10px;
+    
+
+}
+
+
+.discount-voucher{
+    display: flex;
+}
+.dis_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dis_img img{
+    display: flex;
+    width: 55px;
+    height: 50px;
+    margin-right: 8px;
+    justify-content: center;
+}
+.description h3{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.description p{
+     color: gray;
+     font-size: .90rem;
+}
+
+/* border */
+.border{
+    border:1px solid #ccc
+}
+
+/* next section */
+.food-container{
+    width: 80%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+     margin: 50px auto 80px auto;
+    text-align: center;
+     
+   
+}
+.food_des h3{
+   
+    font-size:20px ;
+    margin-bottom: 15px;
+     padding: 10px 10px;
+     align-self: unset;
+     background: green;
+     border-radius:10px;
+     color: white;
+    
+     
+}
+.food_des h2{
+    margin-bottom: 30px;
+
+}
+.food-items{
+    display: grid;
+    gap: 10px;
+    grid-template-areas:
+    "I1 I1 I2 I3"
+    "I1 I1 I2 I7"
+    "I4 I5 I6 I7";
+     }
+.food1{
+    grid-area:I1;
+}
+.food2{
+    grid-area:I2;
+}
+.food3{
+    grid-area:I3;
+}
+.food4{
+    grid-area:I4;
+}
+.food5{
+    grid-area:I5;
+}
+.food6{
+    grid-area:I6;
+}
+.food7{
+    grid-area:I7;
+    transition: 0.3s ease-in;
+}
+
+.redius{
+    border-radius: 10px;
+    background-repeat:no-repeat ;
+    width: 100%;
+    height: 100%;
+}
+.redius:hover{
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;
+}
+
+/* footer start from here */
+.footer{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+.footer-des h3{
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+li{
+    list-style: none;
+    font-size: .85rem;
+    margin-bottom: 8px;
+}
+input{
+    width: 100%;
+    border: none;
+    margin-bottom: 10px;
+}
+.footer-des h2{
+    font-size: 1rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+i{
+    font-size: 20px;
+    margin-right: 10px;
+}
+@media(max-width:1080px){
+    .menu{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin:50px auto 150px  auto;
+        text-align: center;
+    }
+    .menu img{
+        width: 400px;
+    }
+    .enjoy_food{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+    .enjoy_food h4{
+       align-self: flex-start;
+       margin-left: 172px;
+       font-size: 15px;
+    }
+    .enjoy_food h1{
+        
+        font-size: 2.5rem;
+        margin-bottom: 15px;
+       
+    }
+    .enjoy_food button {
+    margin-left: 200px;
+    font-size: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    }
+
+
+}
+
+
+@media(max-width:850px){
+
+    
+.menu{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:50px auto 150px  auto;
+    text-align: center;
+}
+.menu img{
+    width: 400px;
+}
+.enjoy_food{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.enjoy_food h4{
+   align-self: flex-start;
+   margin-left: 172px;
+   font-size: 15px;
+}
+.enjoy_food h1{
+    
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+   
+}
+.enjoy_food button {
+margin-left: 200px;
+font-size: 20px;
+margin-top: 20px;
+border-radius: 10px;
+}
+
+    .container{
+        
+        flex-direction: column;
+        width: 80%;
+        margin: 200px auto 150px auto;
+       
+    
+    }
+    
+    
+    .discount-voucher{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 20px;
+        width: 70%;
+    }
+    .dis_img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .dis_img img{
+        display: flex;
+        width: 55px;
+        height: 50px;
+        margin-right: 8px;
+        justify-content: center;
+    }
+    .description h3{
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    .description p{
+         color: gray;
+         font-size: .80rem;
+        
+    }
+    .food_des h3{
+   
+        font-size:15px ;
+    
+    }
+    .food_des h2{
+   
+        font-size:25px ;
+    
+    }
+    .food_des h2{
+        margin-bottom: 30px;
+    
+    }
+    .footer{
+        background-color: antiquewhite;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 30px;
+    }
+    .footer1{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .footer-des h3{
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+    
+    li{
+
+        font-size: .80rem;
+   }
+ 
+}
+@media(max-width:580px){
+
+    .menu img{
+        width: 330px;
+    }
+
+    .enjoy_food h4{
+       align-self: flex-start;
+       margin-left: 145px;
+       font-size: 12px;
+       border-radius:5px;
+
+    }
+    .enjoy_food h1{
+        
+        font-size: 2rem;
+        margin-bottom: 15px;
+       
+    }
+    .enjoy_food p{
+        font-size: .80rem;
+    }
+    .enjoy_food button {
+    margin-left: 150px;
+    font-size: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    }
+    
+
+
+
+
+
+
+
+}
+    
+
+
+
+
+
+
+
+
+
+

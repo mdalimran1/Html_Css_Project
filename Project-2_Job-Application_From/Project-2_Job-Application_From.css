@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color:antiquewhite;
+}
+.small{
+    font-size: 25px;
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: left;
+    margin-top: 20px;
+}
+.application{
+    max-width: 600px;
+    background-color: whitesmoke;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 20px;
+    box-shadow:4px 4px 4px rgba(1,1,1,0.1) ;
+    border-radius:8px ;
+}
+.h{
+    margin-bottom: 30px;
+}
+
+.from-container{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr)) ;
+    grid-gap: 20px;
+    text-align: left;
+    font-size: .90rem;
+    font-weight: 600;
+  
+}
+.from-control{
+    display: flex;
+    flex-direction: column;
+}
+.btn{
+    margin-top: 20px;
+    display: flex;
+    justify-content: end;
+    font-size: .80rem;
+    cursor: pointer;
+}
+button{
+padding: 8px 10px;
+border-radius: 5px;
+border: transparent;
+background-color: red;
+color: white;
+
+}
+button:hover{
+    background-color: gray;
+    
+}
+
+input,select,option,textarea{
+    font-size: .85rem;
+    padding: 6px 10px;
+    border:1px solid #ccc;
+    
+}
+.textarea-control{
+    grid-column: 1 / span 2;
+    
+}
+.textarea-control textarea{
+    width: 100%;
+}
+
+
+@media(max-width:500px){
+    .textarea-control{
+        display: grid;
+        grid-column: 1/ 1;
+        
+    }
+
+   
+}

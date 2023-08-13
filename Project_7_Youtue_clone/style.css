@@ -1,0 +1,216 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --red600:#dc0000;
+}
+
+body,html{
+    scroll-behavior: smooth;
+}
+.header3{
+    display: flex;
+   width: 100%;
+  
+}
+.nice2{
+    font-size: 23px;
+}
+.side-icon-style{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 40px;
+    align-items: center;
+    text-align: center;
+}
+.style2-des{
+    font-size: 10px;
+}
+.side-icon-style2{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.side-icon-style2 i{
+    font-size: 20px;
+}
+.youtue-logo img{
+    background-repeat:no-repeat ;
+    width: 100px;
+}
+.first-header{
+    display: flex;
+    width: 100%;
+    height: 45px;
+    justify-content: space-around;
+    align-items: center;
+}
+.not{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 50px;
+}
+.header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.header2{
+    padding-left: 20px;
+}
+.header-btn{
+    display: flex;
+    gap: 20px;
+}
+.srch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hr{
+    border: 1px solid rgb(244, 244, 244);
+}
+
+.header-btn{
+    height: 30px;
+    margin-left: 50px;
+}
+.btn{
+    padding: 2px 10px;
+    font-size: .75rem;
+    border-radius:50px ;
+    border: .05px solid rgb(199, 196, 196);
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.youtue-logo img{
+    background-repeat:no-repeat ;
+    width: 100px;
+}
+.srch{
+    display: flex;
+}
+.srch input{
+    width: 500px;
+    height: 30px;
+   border-right:none;
+   padding: 13px 0px;
+   border:1px solid rgb(202, 200, 200);
+   border-bottom-left-radius: 5px;
+   border-top-left-radius: 5px;
+   text-align: left;
+   border-collapse: collapse;
+   font-size: 14px;
+    border-right: none;
+}
+.srch-vtn{
+    padding: 6.5px 10px;
+    border: transparent;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    transition: 0.3s ease-in;
+    cursor: pointer;
+}
+.srch-vtn:hover{
+    background-color:rgb(177, 174, 174);
+    transition: 0.3s ease-in;
+}
+
+.nice{
+    font-size: 18px;
+}
+.mic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    font-size:20px ;
+    background-color:whitesmoke;
+    padding: 5px 7px;
+    border-radius:50%;
+    transition: 0.3s ease-in;
+}
+.mic:hover{
+    background-color:rgb(177, 174, 174);
+    transition: 0.3s ease-in;
+}
+.circle-img img{
+    width: 30px;
+}
+.btn1{
+    padding: 2px 10px;
+    font-size: .75rem;
+    border-radius:50px ;
+    border: .05px solid rgb(199, 196, 196);
+    margin-right: 10px;
+    margin-top: 5px;
+    background-color: rgb(56, 54, 54);
+    color: white;
+}
+.cam{
+    font-size: 20px;
+}
+.var{
+    font-size: 20px;
+}
+.notifi{
+    font-size: 20px;
+}
+main{
+    height: 800px;
+    width: 90%;
+    margin: 0 auto;
+}
+ .img1{
+    width: 200px;
+}
+.img2{
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+}
+.you-des{
+    display: flex;
+    gap: 10px;
+
+ }
+   
+.des h3{
+    font-size: 14px;
+}
+.des h4{
+    font-size: 12px;
+}
+.icon-space{
+    margin-top: 5px;
+    display: flex;
+    gap: 15px;
+}
+.main-line{
+    display: flex;
+    gap: 54px;
+   
+}
+ .main{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+   position: relative;
+   bottom:180px ;
+   left: 20px;
+ }
+
+
+
+
+
+
+
+
+
+
